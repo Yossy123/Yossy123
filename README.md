@@ -1,5 +1,5 @@
 <p align="center">
- <img src= "https://giffiles.alphacoders.com/131/131900.gif"/>
+ <img src= "https://giffiles.alphacoders.com/131/131900.gif" width="400" />
 </p>
 
 <h1 align="center">Hi 👋, I'm Yossy Indra Kusuma</h1>
