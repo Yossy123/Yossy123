@@ -1,9 +1,17 @@
+<p align="center">
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c83c004e-1370-4756-88e5-4071de797088/de0dib6-0d584820-45d9-49c8-a54d-a33b98ac8372.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M4M2MwMDRlLTEzNzAtNDc1Ni04OGU1LTQwNzFkZTc5NzA4OFwvZGUwZGliNi0wZDU4NDgyMC00NWQ5LTQ5YzgtYTU0ZC1hMzNiOThhYzgzNzIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.oIKwFOK9Aqd8E2YOv8KDWQoSyNhyM_7E6T34Td20ZKE" alt="MasterHead" width="100%" height="400" />
+</p>
+
 <h1 align="center">Hi 👋, I'm Yossy Indra Kusuma</h1>
 <h3 align="center">I am a cyber security</h3>
 
 - 📫 How to reach me **yossykusuma01@gmail.com**
 
 - ⚡ Fun fact **Hiduplah Seperti Himmel**
+
+-  <td align="center">
+      <img src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" alt="welcome" width="250" />
+    </td>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
