@@ -1,0 +1,78 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0%;100%;0%" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="50%" stop-color="#3a7bd5"/>
+      <stop offset="100%" stop-color="#00d2ff"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f7971e"/>
+      <stop offset="100%" stop-color="#ffd200"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="220" rx="20" fill="url(#bgGrad)"/>
+
+  <g opacity="0.15">
+    <circle cx="150" cy="60" r="40" fill="#00d2ff">
+      <animate attributeName="cy" values="60;110;60" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="160" r="60" fill="#3a7bd5">
+      <animate attributeName="cy" values="160;90;160" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="20" r="30" fill="#f7971e">
+      <animate attributeName="cy" values="20;80;20" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g stroke="#00d2ff" stroke-width="2" fill="none" opacity="0.3">
+    <circle cx="180" cy="180" r="30">
+      <animateTransform attributeName="transform" type="rotate" from="0 180 180" to="360 180 180" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="40" r="24">
+      <animateTransform attributeName="transform" type="rotate" from="360 1020 40" to="0 1020 40" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="80" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" fill="url(#textGrad)" filter="url(#glow)">
+    HI THERE!
+  </text>
+
+  <text x="80" y="160" font-family="Consolas, Courier New, monospace" font-size="30" font-weight="600" fill="#ffffff">
+    I'm
+    <tspan fill="url(#accentGrad)">Yossy123</tspan>
+    <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#a0c4d4">
+    <text x="80" y="198">Software Developer</text>
+    <text x="300" y="198">•</text>
+    <text x="315" y="198">AI Automation</text>
+    <text x="500" y="198">•</text>
+    <text x="515" y="198">Open Source</text>
+  </g>
+
+  <g>
+    <circle cx="1130" cy="180" r="10" fill="#39ff14" opacity="0.2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="8;14;8" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1130" cy="180" r="5" fill="#39ff14"/>
+  </g>
+</svg>
