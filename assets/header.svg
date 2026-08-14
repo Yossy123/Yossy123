@@ -1,25 +1,44 @@
 <svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- Background Gradient (Ultra Dark Neon Cyberpunk Theme) -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f2027"/>
-      <stop offset="50%" stop-color="#203a43"/>
-      <stop offset="100%" stop-color="#2c5364"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="y1" values="0%;100%;0%" dur="12s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#0a0b10"/>
+      <stop offset="40%" stop-color="#0f111a"/>
+      <stop offset="80%" stop-color="#141724"/>
+      <stop offset="100%" stop-color="#090a0f"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="15s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00d2ff"/>
-      <stop offset="50%" stop-color="#3a7bd5"/>
-      <stop offset="100%" stop-color="#00d2ff"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f7971e"/>
-      <stop offset="100%" stop-color="#ffd200"/>
+
+    <!-- Neon Text Gradient (Cyan to Purple) -->
+    <linearGradient id="neonCyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#7928ca"/>
+      <stop offset="100%" stop-color="#ff007f"/>
       <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+
+    <!-- Neon Accent Gradient (Gold to Green) -->
+    <linearGradient id="neonAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39ff14"/>
+      <stop offset="50%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#39ff14"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Glow Effect for Neon Texts -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur1"/>
+      <feGaussianBlur stdDeviation="3" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow Effect for Small Details -->
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -27,52 +46,81 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="220" rx="20" fill="url(#bgGrad)"/>
+  <!-- Base Card Background -->
+  <rect width="1200" height="220" rx="16" fill="url(#bgGrad)" stroke="#1f2335" stroke-width="1.5"/>
 
-  <g opacity="0.15">
-    <circle cx="150" cy="60" r="40" fill="#00d2ff">
-      <animate attributeName="cy" values="60;110;60" dur="7s" repeatCount="indefinite"/>
+  <!-- Tech Grid Background Pattern -->
+  <g opacity="0.06">
+    <path d="M0 20 H1200 M0 40 H1200 M0 60 H1200 M0 80 H1200 M0 100 H1200 M0 120 H1200 M0 140 H1200 M0 160 H1200 M0 180 H1200 M0 200 H1200" stroke="#00f2fe" stroke-width="0.5"/>
+    <path d="M100 0 V220 M200 0 V220 M300 0 V220 M400 0 V220 M500 0 V220 M600 0 V220 M700 0 V220 M800 0 V220 M900 0 V220 M1000 0 V220 M1100 0 V220" stroke="#00f2fe" stroke-width="0.5"/>
+  </g>
+
+  <!-- Ambient Light Orbs -->
+  <g opacity="0.25">
+    <circle cx="150" cy="50" r="80" fill="#7928ca" filter="url(#neonGlow)">
+      <animate attributeName="cy" values="50;120;50" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="80;100;80" dur="12s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1000" cy="160" r="60" fill="#3a7bd5">
-      <animate attributeName="cy" values="160;90;160" dur="9s" repeatCount="indefinite"/>
+    <circle cx="1050" cy="170" r="90" fill="#00f2fe" filter="url(#neonGlow)">
+      <animate attributeName="cy" values="170;100;170" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="90;70;90" dur="10s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="600" cy="20" r="30" fill="#f7971e">
-      <animate attributeName="cy" values="20;80;20" dur="8s" repeatCount="indefinite"/>
+    <circle cx="650" cy="180" r="40" fill="#ff007f" filter="url(#neonGlow)">
+      <animate attributeName="cx" values="650;550;650" dur="14s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <g stroke="#00d2ff" stroke-width="2" fill="none" opacity="0.3">
-    <circle cx="180" cy="180" r="30">
-      <animateTransform attributeName="transform" type="rotate" from="0 180 180" to="360 180 180" dur="10s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1020" cy="40" r="24">
-      <animateTransform attributeName="transform" type="rotate" from="360 1020 40" to="0 1020 40" dur="8s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Cyberpunk Geometric Accents -->
+  <g stroke="#00f2fe" stroke-width="1.5" fill="none" opacity="0.4">
+    <!-- Spinning Crosses -->
+    <path d="M1100 40 H1120 M1110 30 V50" filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="rotate" from="0 1110 40" to="360 1110 40" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M80 170 H96 M88 162 V178" filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="rotate" from="360 88 170" to="0 88 170" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <!-- Code Bracket Symbols as Background Elements -->
+    <path d="M1020 70 L995 95 L1020 120" stroke="#7928ca" stroke-width="3" opacity="0.3"/>
+    <path d="M1050 70 L1075 95 L1050 120" stroke="#00f2fe" stroke-width="3" opacity="0.3"/>
   </g>
 
-  <text x="80" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" fill="url(#textGrad)" filter="url(#glow)">
-    HI THERE!
+  <!-- Main Headline Text -->
+  <text x="80" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="900" fill="url(#neonCyanPurple)" filter="url(#neonGlow)" letter-spacing="2">
+    YOSSY KUSUMA
   </text>
 
-  <text x="80" y="160" font-family="Consolas, Courier New, monospace" font-size="30" font-weight="600" fill="#ffffff">
-    I'm
-    <tspan fill="url(#accentGrad)">Yossy123</tspan>
-    <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite"/>
+  <!-- Animated Sub-headline Text -->
+  <text x="85" y="155" font-family="Consolas, Courier New, monospace" font-size="26" font-weight="700" fill="#ffffff">
+    &gt; Hello, World! I'm
+    <tspan fill="url(#neonAccent)" font-weight="800">Yossy123</tspan>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
   </text>
 
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#a0c4d4">
-    <text x="80" y="198">Fullstack Web Developer</text>
-    <text x="360" y="198">•</text>
-    <text x="375" y="198">AI Business</text>
-    <text x="515" y="198">•</text>
-    <text x="530" y="198">Automation</text>
+  <!-- Tagline / Skills Badges Bar -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#8f9bb3">
+    <!-- Skill Item 1 -->
+    <rect x="85" y="175" width="220" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="100" cy="189" r="4" fill="#00f2fe" filter="url(#softGlow)"/>
+    <text x="115" y="195" fill="#a9b1d6">Fullstack Developer</text>
+
+    <!-- Skill Item 2 -->
+    <rect x="320" y="175" width="230" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="335" cy="189" r="4" fill="#7928ca" filter="url(#softGlow)"/>
+    <text x="350" y="195" fill="#a9b1d6">AI &amp; Business Automation</text>
+
+    <!-- Skill Item 3 -->
+    <rect x="565" y="175" width="180" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="580" cy="189" r="4" fill="#39ff14" filter="url(#softGlow)"/>
+    <text x="595" y="195" fill="#a9b1d6">n8n Expert</text>
   </g>
 
+  <!-- Live Pulse Dot (Top-Right Status indicator) -->
   <g>
-    <circle cx="1130" cy="180" r="10" fill="#39ff14" opacity="0.2">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="8;14;8" dur="1.5s" repeatCount="indefinite"/>
+    <circle cx="1110" cy="175" r="10" fill="#39ff14" opacity="0.15">
+      <animate attributeName="opacity" values="0.15;0.8;0.15" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="8;16;8" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1130" cy="180" r="5" fill="#39ff14"/>
+    <circle cx="1110" cy="175" r="5" fill="#39ff14" filter="url(#softGlow)"/>
+    <text x="1015" y="181" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#39ff14" letter-spacing="1">ACTIVE</text>
   </g>
 </svg>
