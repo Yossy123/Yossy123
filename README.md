@@ -75,7 +75,7 @@ class Yossy123:
 
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Automation](https://img.shields.io/badge/Automation-00D2FF?style=for-the-badge&logo=zapier&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-00D2FF?style=for-the-badge&logo=lightning&logoColor=white)
 
 </div>
 
@@ -88,7 +88,7 @@ class Yossy123:
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Yossy123&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=7928ca&text_color=a9b1d6&ring_color=00f2fe&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=Yossy123&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00f2fe&icon_color=7928ca&text_color=a9b1d6&ring_color=00f2fe" alt="GitHub Stats" width="100%"/>
     </td>
     <td align="center" width="50%">
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yossy123&layout=donut&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=a9b1d6" alt="Top Languages" width="100%"/>
