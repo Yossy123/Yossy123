@@ -1,126 +1,44 @@
-<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <!-- Background Gradient (Ultra Dark Neon Cyberpunk Theme) -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0b10"/>
-      <stop offset="40%" stop-color="#0f111a"/>
-      <stop offset="80%" stop-color="#141724"/>
-      <stop offset="100%" stop-color="#090a0f"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="15s" repeatCount="indefinite"/>
-    </linearGradient>
-
-    <!-- Neon Text Gradient (Cyan to Purple) -->
-    <linearGradient id="neonCyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="50%" stop-color="#7928ca"/>
-      <stop offset="100%" stop-color="#ff007f"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
-    </linearGradient>
-
-    <!-- Neon Accent Gradient (Gold to Green) -->
-    <linearGradient id="neonAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#39ff14"/>
-      <stop offset="50%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#39ff14"/>
-      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
-    </linearGradient>
-
-    <!-- Glow Effect for Neon Texts -->
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur1"/>
-      <feGaussianBlur stdDeviation="3" result="blur2"/>
-      <feMerge>
-        <feMergeNode in="blur1"/>
-        <feMergeNode in="blur2"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Glow Effect for Small Details -->
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <!-- Base Card Background -->
-  <rect width="1200" height="220" rx="16" fill="url(#bgGrad)" stroke="#1f2335" stroke-width="1.5"/>
-
-  <!-- Tech Grid Background Pattern -->
-  <g opacity="0.06">
-    <path d="M0 20 H1200 M0 40 H1200 M0 60 H1200 M0 80 H1200 M0 100 H1200 M0 120 H1200 M0 140 H1200 M0 160 H1200 M0 180 H1200 M0 200 H1200" stroke="#00f2fe" stroke-width="0.5"/>
-    <path d="M100 0 V220 M200 0 V220 M300 0 V220 M400 0 V220 M500 0 V220 M600 0 V220 M700 0 V220 M800 0 V220 M900 0 V220 M1000 0 V220 M1100 0 V220" stroke="#00f2fe" stroke-width="0.5"/>
-  </g>
-
-  <!-- Ambient Light Orbs -->
-  <g opacity="0.25">
-    <circle cx="150" cy="50" r="80" fill="#7928ca" filter="url(#neonGlow)">
-      <animate attributeName="cy" values="50;120;50" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="80;100;80" dur="12s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1050" cy="170" r="90" fill="#00f2fe" filter="url(#neonGlow)">
-      <animate attributeName="cy" values="170;100;170" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="90;70;90" dur="10s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="650" cy="180" r="40" fill="#ff007f" filter="url(#neonGlow)">
-      <animate attributeName="cx" values="650;550;650" dur="14s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Cyberpunk Geometric Accents -->
-  <g stroke="#00f2fe" stroke-width="1.5" fill="none" opacity="0.4">
-    <!-- Spinning Crosses -->
-    <path d="M1100 40 H1120 M1110 30 V50" filter="url(#softGlow)">
-      <animateTransform attributeName="transform" type="rotate" from="0 1110 40" to="360 1110 40" dur="8s" repeatCount="indefinite"/>
-    </path>
-    <path d="M80 170 H96 M88 162 V178" filter="url(#softGlow)">
-      <animateTransform attributeName="transform" type="rotate" from="360 88 170" to="0 88 170" dur="6s" repeatCount="indefinite"/>
-    </path>
-    <!-- Code Bracket Symbols as Background Elements -->
-    <path d="M1020 70 L995 95 L1020 120" stroke="#7928ca" stroke-width="3" opacity="0.3"/>
-    <path d="M1050 70 L1075 95 L1050 120" stroke="#00f2fe" stroke-width="3" opacity="0.3"/>
-  </g>
-
-  <!-- Main Headline Text -->
-  <text x="80" y="105" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="900" fill="url(#neonCyanPurple)" filter="url(#neonGlow)" letter-spacing="2">
-    YOSSY KUSUMA
+<svg width="1200" height="340" viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Yossy Kusuma - Fullstack Web Developer">
+<defs>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#f472b6"/>
+    <animate attributeName="x1" values="0;-1;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="1;0;1" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="sub" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></linearGradient>
+  <radialGradient id="o1"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o2"><stop offset="0" stop-color="#22d3ee" stop-opacity=".45"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <radialGradient id="o3"><stop offset="0" stop-color="#f472b6" stop-opacity=".4"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+  <clipPath id="c"><rect width="1200" height="340" rx="22"/></clipPath>
+  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g clip-path="url(#c)">
+  <rect width="1200" height="340" fill="#0b0d14"/>
+  <circle cx="220" cy="90" r="280" fill="url(#o1)"><animateTransform attributeName="transform" type="translate" values="0 0;90 50;0 0" dur="14s" repeatCount="indefinite"/></circle>
+  <circle cx="980" cy="260" r="300" fill="url(#o2)"><animateTransform attributeName="transform" type="translate" values="0 0;-110 -40;0 0" dur="17s" repeatCount="indefinite"/></circle>
+  <circle cx="640" cy="40" r="220" fill="url(#o3)"><animateTransform attributeName="transform" type="translate" values="0 0;-60 70;0 0" dur="20s" repeatCount="indefinite"/></circle>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <circle cx="31" cy="17" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="3s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="128" cy="70" r="1.7" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="4s" begin="0.4s" repeatCount="indefinite"/></circle><circle cx="225" cy="123" r="2.4" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="5s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="322" cy="176" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="6s" begin="1.2s" repeatCount="indefinite"/></circle><circle cx="419" cy="229" r="1.7" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="7s" begin="1.6s" repeatCount="indefinite"/></circle><circle cx="516" cy="282" r="2.4" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="3s" begin="2.0s" repeatCount="indefinite"/></circle><circle cx="613" cy="335" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="4s" begin="2.4s" repeatCount="indefinite"/></circle><circle cx="710" cy="48" r="1.7" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="5s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="807" cy="101" r="2.4" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="6s" begin="0.4s" repeatCount="indefinite"/></circle><circle cx="904" cy="154" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="7s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="1001" cy="207" r="1.7" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="3s" begin="1.2s" repeatCount="indefinite"/></circle><circle cx="1098" cy="260" r="2.4" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="4s" begin="1.6s" repeatCount="indefinite"/></circle><circle cx="1195" cy="313" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="5s" begin="2.0s" repeatCount="indefinite"/></circle><circle cx="92" cy="26" r="1.7" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="6s" begin="2.4s" repeatCount="indefinite"/></circle><circle cx="189" cy="79" r="2.4" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="7s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="286" cy="132" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="3s" begin="0.4s" repeatCount="indefinite"/></circle><circle cx="383" cy="185" r="1.7" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="4s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="480" cy="238" r="2.4" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="5s" begin="1.2s" repeatCount="indefinite"/></circle><circle cx="577" cy="291" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="6s" begin="1.6s" repeatCount="indefinite"/></circle><circle cx="674" cy="4" r="1.7" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="7s" begin="2.0s" repeatCount="indefinite"/></circle><circle cx="771" cy="57" r="2.4" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="3s" begin="2.4s" repeatCount="indefinite"/></circle><circle cx="868" cy="110" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="4s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="965" cy="163" r="1.7" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="5s" begin="0.4s" repeatCount="indefinite"/></circle><circle cx="1062" cy="216" r="2.4" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="6s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="1159" cy="269" r="1.0" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="7s" begin="1.2s" repeatCount="indefinite"/></circle><circle cx="56" cy="322" r="1.7" fill="#fff"><animate attributeName="opacity" values="0.05;0.7;0.05" dur="3s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <text x="600" y="96" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" fill="#94a3b8" letter-spacing="3">
+    <tspan fill="#22d3ee">&lt;</tspan> HELLO WORLD, I'M <tspan fill="#22d3ee">/&gt;</tspan>
+    <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
   </text>
-
-  <!-- Animated Sub-headline Text -->
-  <text x="85" y="155" font-family="Consolas, Courier New, monospace" font-size="26" font-weight="700" fill="#ffffff">
-    &gt; Hello, World! I'm
-    <tspan fill="url(#neonAccent)" font-weight="800">Yossy123</tspan>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  <text x="600" y="172" text-anchor="middle" font-family="'Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="76" font-weight="800" fill="url(#name)" filter="url(#glow)" letter-spacing="-1">Yossy Kusuma
+    <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
   </text>
+  <rect x="380" y="194" width="440" height="2" fill="url(#bar)" rx="1">
+    <animate attributeName="width" values="0;440" dur="1.6s" fill="freeze"/>
+  </rect>
+  <text x="600" y="228" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" fill="url(#sub)" opacity="1">Fullstack Web Developer<animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0.0000;0.0400;0.2100;0.2500;1.0000" dur="16s" repeatCount="indefinite"/></text>
+<text x="600" y="228" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" fill="url(#sub)" opacity="0">AI &amp; Business Automation<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2500;0.2900;0.4600;0.5000;1.0000" dur="16s" repeatCount="indefinite"/></text>
+<text x="600" y="228" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" fill="url(#sub)" opacity="0">Laravel  ·  React  ·  Tailwind<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5000;0.5400;0.7100;0.7500;1.0000" dur="16s" repeatCount="indefinite"/></text>
+<text x="600" y="228" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" fill="url(#sub)" opacity="0">n8n Workflow Builder<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7500;0.7900;0.9600;1.0000;1.0000" dur="16s" repeatCount="indefinite"/></text>
 
-  <!-- Tagline / Skills Badges Bar -->
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#8f9bb3">
-    <!-- Skill Item 1 -->
-    <rect x="85" y="175" width="220" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <circle cx="100" cy="189" r="4" fill="#00f2fe" filter="url(#softGlow)"/>
-    <text x="115" y="195" fill="#a9b1d6">Fullstack Developer</text>
-
-    <!-- Skill Item 2 -->
-    <rect x="320" y="175" width="230" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <circle cx="335" cy="189" r="4" fill="#7928ca" filter="url(#softGlow)"/>
-    <text x="350" y="195" fill="#a9b1d6">AI &amp; Business Automation</text>
-
-    <!-- Skill Item 3 -->
-    <rect x="565" y="175" width="180" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <circle cx="580" cy="189" r="4" fill="#39ff14" filter="url(#softGlow)"/>
-    <text x="595" y="195" fill="#a9b1d6">n8n Expert</text>
+  <g font-family="'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" fill="#64748b" text-anchor="middle">
+    <text x="600" y="292">Indonesia  ·  building things that run themselves</text>
   </g>
-
-  <!-- Live Pulse Dot (Top-Right Status indicator) -->
-  <g>
-    <circle cx="1110" cy="175" r="10" fill="#39ff14" opacity="0.15">
-      <animate attributeName="opacity" values="0.15;0.8;0.15" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="8;16;8" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1110" cy="175" r="5" fill="#39ff14" filter="url(#softGlow)"/>
-    <text x="1015" y="181" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#39ff14" letter-spacing="1">ACTIVE</text>
-  </g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="338.5" rx="22" fill="none" stroke="#232840" stroke-width="1.5"/>
 </svg>

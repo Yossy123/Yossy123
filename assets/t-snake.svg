@@ -1,0 +1,7 @@
+<svg width="1000" height="56" viewBox="0 0 1000 56" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="4" width="290" height="48" rx="12" fill="#11141f" stroke="#232840"/>
+<rect x="14" y="14" width="5" height="28" rx="2.5" fill="#34d399"><animate attributeName="height" values="12;28" dur=".8s" fill="freeze"/><animate attributeName="y" values="22;14" dur=".8s" fill="freeze"/></rect>
+<text x="32" y="36" font-family="'Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#e5e7eb">Contribution Snake</text>
+<rect x="290" y="27" width="710" height="2" fill="url(#g)" opacity=".5"/>
+</svg>
