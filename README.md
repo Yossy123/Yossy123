@@ -1,57 +1,35 @@
-<h1 align="center">Hi, I'm Yossy 👋</h1>
+<div align="center">
 
-<p align="center">
-  Fullstack web developer &amp; AI business automation from Indonesia.<br/>
-  I build web apps and workflows that run themselves.
-</p>
+<img src="assets/banner.svg" width="100%" alt="Yossy Kusuma - Fullstack Web Developer & AI Business Automation"/>
 
-<p align="center">
-  <a href="mailto:yossykusuma01@gmail.com"><img src="https://img.shields.io/badge/Email-yossykusuma01@gmail.com-111827?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Yossy123&style=flat-square&color=111827&label=Profile+views" alt="Profile views"/>
-</p>
+<br/><br/>
+
+<img src="assets/card-who.svg" width="100%" alt="Who I am"/>
+<img src="assets/card-what.svg" width="100%" alt="What I do"/>
+<img src="assets/card-vision.svg" width="100%" alt="Vision"/>
+<img src="assets/card-learning.svg" width="100%" alt="Learning"/>
 
 <br/>
 
-### 🛠️ Stack
+<img src="assets/h-connect.svg" width="100%" alt="Connect"/>
 
-<p>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <br/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
-</p>
+<table>
+  <tr>
+    <th width="140">GitHub</th>
+    <th width="140">Gmail</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Yossy123"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" alt="GitHub"/></a></td>
+    <td align="center"><a href="mailto:yossykusuma01@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="48" alt="Gmail"/></a></td>
+  </tr>
+</table>
 
-### 🌱 Right now
+<img src="assets/h-stats.svg" width="100%" alt="Stats"/>
 
-- Learning **Laravel**, **React**, and full-stack patterns
-- Building automations with **n8n** and AI
-- Interested in open source, web dev, and business automation
-
-### 📊 Stats
-
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Yossy123&show_icons=true&hide_border=true&theme=transparent&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
-    <img src="https://github-readme-stats.vercel.app/api?username=Yossy123&show_icons=true&hide_border=true&theme=default" alt="GitHub stats" height="165"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Yossy123&layout=compact&hide_border=true&theme=transparent&title_color=58a6ff&text_color=c9d1d9"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yossy123&layout=compact&hide_border=true&theme=default" alt="Top languages" height="165"/>
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yossy123/Yossy123/output/profile-3d-contrib/profile-night-view.svg"/>
+  <img src="https://raw.githubusercontent.com/Yossy123/Yossy123/output/profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D contribution graph"/>
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yossy123/Yossy123/output/github-snake-dark.svg"/>
@@ -59,6 +37,40 @@
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/Yossy123/Yossy123/output/github-snake.svg" width="100%"/>
 </picture>
 
+<img src="assets/h-skills.svg" width="100%" alt="Skill set"/>
+
+<table>
+  <tr>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="48"/><br/><sub>HTML</sub></td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48"/><br/><sub>CSS</sub></td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48"/><br/><sub>JavaScript</sub></td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48"/><br/><sub>TypeScript</sub></td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=php&theme=dark" width="48"/><br/><sub>PHP</sub></td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=python&theme=dark" width="48"/><br/><sub>Python</sub></td>
+    <td align="center" width="110"><img src="https://skillicons.dev/icons?i=go&theme=dark" width="48"/><br/><sub>Go</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48"/><br/><sub>React</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48"/><br/><sub>Tailwind</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=laravel&theme=dark" width="48"/><br/><sub>Laravel</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48"/><br/><sub>Node.js</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48"/><br/><sub>MySQL</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48"/><br/><sub>PostgreSQL</sub></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/n8n/EA4B71" width="48"/><br/><sub>n8n</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://cdn.simpleicons.org/openai/74AA9C" width="48"/><br/><sub>OpenAI</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="48"/><br/><sub>Git</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48"/><br/><sub>GitHub</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="48"/><br/><sub>VS Code</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=linux&theme=dark" width="48"/><br/><sub>Linux</sub></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+</table>
+
 <br/>
 
-<p align="center"><sub>Thanks for stopping by. Let's build something together 🚀</sub></p>
+<sub>Thanks for stopping by. Let's build something together 🚀</sub>
+
+</div>
