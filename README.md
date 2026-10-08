@@ -1,58 +1,64 @@
-<div align="center">
+<h1 align="center">Hi, I'm Yossy 👋</h1>
 
-<img src="assets/header.svg" width="100%" alt="Yossy Kusuma - Fullstack Web Developer & AI Business Automation" />
+<p align="center">
+  Fullstack web developer &amp; AI business automation from Indonesia.<br/>
+  I build web apps and workflows that run themselves.
+</p>
+
+<p align="center">
+  <a href="mailto:yossykusuma01@gmail.com"><img src="https://img.shields.io/badge/Email-yossykusuma01@gmail.com-111827?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=Yossy123&style=flat-square&color=111827&label=Profile+views" alt="Profile views"/>
+</p>
 
 <br/>
 
-<a href="mailto:yossykusuma01@gmail.com"><img src="https://img.shields.io/badge/Email-yossykusuma01-22d3ee?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0d14" alt="Email"/></a>
-<a href="https://github.com/Yossy123"><img src="https://img.shields.io/badge/GitHub-Yossy123-8b5cf6?style=for-the-badge&logo=github&logoColor=white&labelColor=0b0d14" alt="GitHub"/></a>
-<img src="https://komarev.com/ghpvc/?username=Yossy123&style=for-the-badge&color=f472b6&label=PROFILE+VIEWS&labelColor=0b0d14&abbreviated=true" alt="Profile views"/>
+### 🛠️ Stack
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<p>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <br/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+</p>
 
-<img src="assets/t-about.svg" width="720" alt="About Me"/>
+### 🌱 Right now
 
-<img src="assets/about.svg" width="100%" alt="About Yossy"/>
+- Learning **Laravel**, **React**, and full-stack patterns
+- Building automations with **n8n** and AI
+- Interested in open source, web dev, and business automation
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+### 📊 Stats
 
-<img src="assets/t-stack.svg" width="720" alt="Tech Stack"/>
-
-<img src="assets/skills.svg" width="100%" alt="Tech stack: PHP, JavaScript, TypeScript, Python, Go, SQL, React, Tailwind CSS, Laravel, Node.js, MySQL, PostgreSQL, n8n, OpenAI, Git, Linux"/>
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-<img src="assets/t-stats.svg" width="720" alt="GitHub Stats"/>
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Yossy123&show_icons=true&hide_border=true&bg_color=11141f&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&ring_color=f472b6&border_radius=16" alt="GitHub Stats" width="100%"/>
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yossy123&layout=compact&langs_count=8&hide_border=true&bg_color=11141f&title_color=22d3ee&text_color=cbd5e1&border_radius=16" alt="Top Languages" width="100%"/>
-    </td>
-  </tr>
-</table>
-
-<img src="https://streak-stats.demolab.com/?user=Yossy123&hide_border=true&background=11141f&stroke=232840&ring=8b5cf6&fire=f472b6&currStreakNum=ffffff&sideNums=cbd5e1&currStreakLabel=22d3ee&sideLabels=94a3b8&dates=64748b&border_radius=16" alt="GitHub Streak" width="100%"/>
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-<img src="assets/t-snake.svg" width="720" alt="Contribution Snake"/>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Yossy123&show_icons=true&hide_border=true&theme=transparent&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=Yossy123&show_icons=true&hide_border=true&theme=default" alt="GitHub stats" height="165"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Yossy123&layout=compact&hide_border=true&theme=transparent&title_color=58a6ff&text_color=c9d1d9"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yossy123&layout=compact&hide_border=true&theme=default" alt="Top languages" height="165"/>
+  </picture>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yossy123/Yossy123/output/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yossy123/Yossy123/output/github-snake.svg"/>
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Yossy123/Yossy123/output/github-snake.svg" width="100%"/>
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Yossy123/Yossy123/output/github-snake.svg" width="100%"/>
 </picture>
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+<br/>
 
-<img src="assets/t-connect.svg" width="720" alt="Let's Connect"/>
-
-<a href="mailto:yossykusuma01@gmail.com"><img src="https://img.shields.io/badge/Say_Hello-yossykusuma01%40gmail.com-22d3ee?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b0d14" alt="Say hello"/></a>
-
-<img src="assets/footer.svg" width="100%" alt="Built with passion, powered by curiosity"/>
-
-</div>
+<p align="center"><sub>Thanks for stopping by. Let's build something together 🚀</sub></p>
